@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c3ffc0"
+    tools:context="com.example.prashantmaheshwari.fitnessapp.BmiCalc">
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText15"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginBottom="62dp"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editText9"
+        android:id="@+id/editText15"
+        android:hint="Height (m)"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/editText15"
+        android:layout_alignStart="@+id/editText15"
+        android:layout_marginTop="53dp"
+        android:id="@+id/editText16"
+        android:hint="Age"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <TextView
+        android:text="Enter details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="See"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:width="300dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/editText16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>

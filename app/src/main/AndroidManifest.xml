@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashantmaheshwari.fitnessapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login1" />
+        <activity android:name=".Register" />
+        <activity android:name=".Forgot" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_dashboard"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".CountStep"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".CalorieCalculator"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Calorie"
+            android:parentActivityName=".CalorieCalculator" />
+        <activity
+            android:name=".Calorieb"
+            android:parentActivityName=".CalorieCalculator" />
+        <activity
+            android:name=".Caloriel"
+            android:parentActivityName=".CalorieCalculator" />
+        <activity
+            android:name=".Caloriec"
+            android:parentActivityName=".CalorieCalculator" />
+        <activity
+            android:name=".DietPlan"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".BmiCalc"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".CalorieBurnt"
+            android:parentActivityName=".Dashboard" />
+        <activity
+            android:name=".Extras"
+            android:parentActivityName=".BmiCalc" />
+        <activity
+            android:name=".Music"
+            android:label="@string/title_music"
+            android:parentActivityName=".Home" />
+    </application>
+
+</manifest>

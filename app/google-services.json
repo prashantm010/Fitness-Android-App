@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "818045364587",
+    "firebase_url": "https://prashantapp-2a113.firebaseio.com",
+    "project_id": "prashantapp-2a113",
+    "storage_bucket": "prashantapp-2a113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818045364587:android:841cdb869d9f1966",
+        "android_client_info": {
+          "package_name": "com.example.prashantmaheshwari.prashantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818045364587-4ghslh467v3j4o6qfgnfe46kn32hsn8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prashantmaheshwari.prashantapp",
+            "certificate_hash": "9b5602352726e2102ba7b7f3359f16609ce6a5ab"
+          }
+        },
+        {
+          "client_id": "818045364587-q2m04aufgvbmqo5burlnqqt44l6ntj2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHhQt8RlzOqV1VddA2GF5H4MwtWMopo_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818045364587-q2m04aufgvbmqo5burlnqqt44l6ntj2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818045364587:android:fcfff30d0ed50d6c",
+        "android_client_info": {
+          "package_name": "com.example.prashantmaheshwari.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818045364587-8gat8ip0iqd52vkoiscicrp8c2ivqt0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prashantmaheshwari.fitnessapp",
+            "certificate_hash": "9b5602352726e2102ba7b7f3359f16609ce6a5ab"
+          }
+        },
+        {
+          "client_id": "818045364587-q2m04aufgvbmqo5burlnqqt44l6ntj2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHhQt8RlzOqV1VddA2GF5H4MwtWMopo_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818045364587-q2m04aufgvbmqo5burlnqqt44l6ntj2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

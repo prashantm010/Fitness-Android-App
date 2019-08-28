@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_music">Music</string>
+    <string name="a"><![CDATA[<]]></string>
+    <string name="b">||</string>
+    <string name="c"><![CDATA[Play]]></string>
+    <string name="d"><![CDATA[>]]></string>
+    <string name="title_activity_dashboard1">Dashboard1</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
